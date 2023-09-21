@@ -5,15 +5,10 @@ perguntas = [
     'Devia para a vítima?',
     'Já trabalhou com a vítima?'
 ]
-
 respostas = []
-
-# Vamos fazer as perguntas e armazenar as respostas na lista 'respostas'
 for pergunta in perguntas:
-    resposta = input(pergunta + ' (sim/não): ')
+    resposta = input(pergunta + '(sim/não):')
     respostas.append(resposta)
-
-# Agora 'respostas' conterá as respostas do usuário
-print("Respostas registradas:")
+print('respostas registradas: ')
 for i, resposta in enumerate(respostas):
-    print(f"Pergunta {i+1}: {resposta}")
+        print(f"Pergunta {i+1}: {resposta}")
